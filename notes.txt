@@ -79,3 +79,7 @@ To verify that the remote repository was added to your configuration
 > git push -u origin master
 To upload local repository content to a remote repository
 
+
+
+ ########## README.md file describes the project ##########
+ https://levelup.gitconnected.com/github-readme-cheatsheet-617dff61fa23
