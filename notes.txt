@@ -33,6 +33,7 @@ Commit changes to Index. (Commit from Staging area to local repository)
     > git commit -m 'Commit Message' - Easiest way to commit
 
 
+
 ######### Git branches #########
 
 > git branch <branch-name>
@@ -40,6 +41,14 @@ To create a branch
 
 > git checkout <branch-name>
 To use the newely created branch
+
+> git branch -d <branch-name>
+To delete a branch locally
+
+> git branch --delete <remote-branch-name>
+To delete remote branch
+
+
 
 ######### Following cmd's are related to Remote Repo. #########
 
@@ -57,3 +66,6 @@ Clone repository into a new directory.
 
 #gitignore
 Specifies intentionally untracked files to ignore
+
+
+> touch .gitignore - create a file '.gitignore'
