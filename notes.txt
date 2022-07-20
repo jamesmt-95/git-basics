@@ -48,7 +48,7 @@ To delete a branch locally
 > git push origin --delete <remote-branch-name>
 To delete a remote branch
 
-> git merge <branch-name>
+> git merge <branch-name> -m 'commit-message'
 To merge branch to master, when you are in <master> branch
 
 
@@ -66,6 +66,10 @@ Pull latest changes from remote repository
 > git clone
 Clone repository into a new directory.
 
+> git remote add origin https://github.com/jamesmt-95/mern-stack.git
+To verify that the remote repository was added to your configuration
+
+> git push -u origin master
 
 #gitignore
 Specifies intentionally untracked files to ignore
