@@ -1,0 +1,6 @@
+#Comment-in-gitignore
+
+#Add-a-file
+log.txt
+#Add-a-folder
+/resources

@@ -48,6 +48,5 @@ Pull latest changes from remote repository
 Clone repository into a new directory.
 
 
-######### Setting Global Git Username and Email #########
-> git config --global user.name "Your Name"
-> git config --global user.email "youremail@yourdomain.com"
+#gitignore
+Specifies intentionally untracked files to ignore
