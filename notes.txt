@@ -1,0 +1,47 @@
+######### Basic Git Commands #########
+
+> git init
+Initialize local repository. This will create a .git folder
+
+
+#Config global git username and email
+> git config --global user.name "Your Name"
+> git config --global user.email "youremail@yourdomain.com"
+
+
+> git add <file>
+Add files to staging area, to make them ready for commit.
+
+    > git add * (all files)
+    > git add . (all files)
+    > git add *.html (all .html files)
+
+    #To remove file(s) from stage area.
+    >git rm --cached <file> (Unstage)
+
+
+> git status
+Cherck the status of working tree (staging area)
+
+
+> git commit
+Commit changes to Index. (Commit from Staging area to local repository)
+
+
+######### Following cmd's are related to Remote Repo. #########
+
+> git push
+Push to Remote repository from local repository
+
+
+> git pull
+Pull latest changes from remote repository
+
+
+> git clone
+Clone repository into a new directory.
+
+
+######### Setting Global Git Username and Email #########
+> git config --global user.name "Your Name"
+> git config --global user.email "youremail@yourdomain.com"
