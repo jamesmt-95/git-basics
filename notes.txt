@@ -48,6 +48,8 @@ To delete a branch locally
 > git branch --delete <remote-branch-name>
 To delete remote branch
 
+> git merge <branch-name>
+To merge branch to master, when you are in <master> branch
 
 
 ######### Following cmd's are related to Remote Repo. #########
