@@ -4,3 +4,4 @@
 log.txt
 #Add-a-folder
 /resources
+# '*.txt' - to ignore all .txt files
