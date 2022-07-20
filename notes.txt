@@ -70,6 +70,8 @@ Pull latest changes from remote repository
 
 > git clone
 Clone repository into a new directory.
+Create a new folder
+> git clone https://github.com/jamesmt-95/mern-stack.git
 
 
 > git remote add origin https://github.com/jamesmt-95/mern-stack.git
