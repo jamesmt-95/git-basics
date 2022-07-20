@@ -9,7 +9,7 @@ Initialize local repository. This will create a .git folder
 > git config --global user.email "youremail@yourdomain.com"
 
 
-> git add <file>
+> git add <file> (This step is also known as 'Stage Changes')
 Add files to staging area, to make them ready for commit.
 
     > git add * (all files)
