@@ -51,6 +51,11 @@ To delete a remote branch
 > git merge <branch-name> -m 'commit-message'
 To merge branch to master, when you are in <master> branch
 
+#gitignore
+Specifies intentionally untracked files to ignore
+
+> touch .gitignore - create a file '.gitignore'
+
 
 
 ######### Following cmd's are related to Remote Repo. #########
@@ -66,13 +71,11 @@ Pull latest changes from remote repository
 > git clone
 Clone repository into a new directory.
 
+
 > git remote add origin https://github.com/jamesmt-95/mern-stack.git
 To verify that the remote repository was added to your configuration
 
+
 > git push -u origin master
+To upload local repository content to a remote repository
 
-#gitignore
-Specifies intentionally untracked files to ignore
-
-
-> touch .gitignore - create a file '.gitignore'
