@@ -45,11 +45,12 @@ To use the newely created branch
 > git branch -d <branch-name>
 To delete a branch locally
 
-> git branch --delete <remote-branch-name>
-To delete remote branch
+> git push origin --delete <remote-branch-name>
+To delete a remote branch
 
 > git merge <branch-name>
 To merge branch to master, when you are in <master> branch
+
 
 
 ######### Following cmd's are related to Remote Repo. #########
