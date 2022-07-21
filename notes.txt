@@ -61,11 +61,11 @@ Specifies intentionally untracked files to ignore
 ######### Following cmd's are related to Remote Repo. #########
 
 > git push
-Push to Remote repository from local repository
+Push from local repository to Remote repository.
 
 
 > git pull
-Pull latest changes from remote repository
+Pull latest changes from remote repository.
 
 
 > git clone
