@@ -1,23 +1,42 @@
+Working Directory > Staging Area > Local Repository > Remote Repository
+
+######### Configuring Git #########
+
+> git config --global user.name "Your Name"
+> git config --global user.email "youremail@yourdomain.com"
+
+    #Set default editor 
+    Many Git commands will launch a text editor to prompt for further input.
+    One of the most common use cases for git config is configuring which editor Git should use.
+    > git config --global core.editor "code --wait" //for VSCode
+        #Note:
+        --wait flag allows Git Bash to Wait for your editor to close the file...
+
+    #To check/update global configuration setting
+    > git config --global -e //this will open .gitconfig file
+
+
 ######### Basic Git Commands #########
 
 > git init
 Initialize local repository. This will create a .git folder
 
 
-#Config global git username and email
-> git config --global user.name "Your Name"
-> git config --global user.email "youremail@yourdomain.com"
-
-
 > git add <file> (This step is also known as 'Stage Changes')
-Add files to staging area, to make them ready for commit.
+Add files to Staging Area(also called Index), to make them ready for commit.
 
     > git add * (all files)
     > git add . (all files)
     > git add *.html (all .html files)
 
-    #To remove file(s) from stage area.
+    #To remove file(s) from Staging Area, which is exists in work env.
     >git rm --cached <file> (Unstage)
+
+    #To remove a file from both Working env and Staging Area
+    > git rm <file1 file2>
+
+    #To remove a file from Staging Area, which is deleted from the work env.
+    > git add <file>
 
 
 > git status
@@ -27,11 +46,10 @@ M - Modified
 A - Added
 
 
-> git commit
+> git commit (Commit also known as Snapshot)
 Commit changes to Index. (Commit from Staging area to local repository)
 
     > git commit -m 'Commit Message' - Easiest way to commit
-
 
 
 ######### Git branches #########
@@ -39,23 +57,27 @@ Commit changes to Index. (Commit from Staging area to local repository)
 > git branch <branch-name>
 To create a branch
 
+
 > git checkout <branch-name>
 To use the newely created branch
+
 
 > git branch -d <branch-name>
 To delete a branch locally
 
+
 > git push origin --delete <remote-branch-name>
 To delete a remote branch
+
 
 > git merge <branch-name> -m 'commit-message'
 To merge branch to master, when you are in <master> branch
 
+
 #gitignore
-Specifies intentionally untracked files to ignore
+Specifies intentionally untracked files to ignore.
 
 > touch .gitignore - create a file '.gitignore'
-
 
 
 ######### Following cmd's are related to Remote Repo. #########
@@ -70,8 +92,8 @@ Pull latest changes from remote repository.
 
 > git clone
 Clone repository into a new directory.
-Create a new folder
-> git clone https://github.com/jamesmt-95/mern-stack.git
+    Create a new folder
+    > git clone https://github.com/jamesmt-95/mern-stack.git
 
 
 > git remote add origin https://github.com/jamesmt-95/mern-stack.git
@@ -80,7 +102,6 @@ To verify that the remote repository was added to your configuration
 
 > git push -u origin master
 To upload local repository content to a remote repository
-
 
 
  ########## README.md file describes the project ##########
