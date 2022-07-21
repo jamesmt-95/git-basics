@@ -106,3 +106,28 @@ To upload local repository content to a remote repository
 
  ########## README.md file describes the project ##########
  https://levelup.gitconnected.com/github-readme-cheatsheet-617dff61fa23
+
+
+
+ ########## Viewing the staged & Unstaged changes ##########
+
+ #To see what we have in the Staging Area
+ > git diff --staged
+
+  #To see what we have in the Working Directory
+ > git diff
+
+
+ ########## Viewing the commit history ##########
+
+  #To see all the history of commit
+ > git log
+
+
+ ########## Restore specified paths in the working tree / Index (Staging Area) ##########
+
+ > git restore <file>  // working tree (working directory)
+
+ > git restore --staged <file>  // Index (Staging Area)
+
+> git restore . // Restore all in working tree
