@@ -39,7 +39,7 @@ Add files to Staging Area(also called Index), to make them ready for commit.
     > git add <file>
 
 
-> git status
+> git status (flag -s for short status)
 Check the status of working tree (staging area)
 U - Untracked
 M - Modified
