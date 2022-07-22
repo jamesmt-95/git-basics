@@ -131,8 +131,11 @@ To upload local repository content to a remote repository
  #To see what we have in the Staging Area
  > git diff --staged
 
-  #To see what we have in the Working Directory
- > git diff
+#To see what we have in the Working Directory
+> git diff
+
+#To compare two branches
+> git diff <branch-1> <branch-2>
 
 
  ########## Viewing the commit history ##########
