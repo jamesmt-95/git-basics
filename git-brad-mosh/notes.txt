@@ -62,6 +62,9 @@ Move to previous commit
 > git branch <branch-name>
 To create a branch
 
+> git branch
+To list all branches
+
 
 > git checkout <branch-name>
 To use the newely created branch
