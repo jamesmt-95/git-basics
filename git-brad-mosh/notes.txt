@@ -45,11 +45,16 @@ U - Untracked
 M - Modified
 A - Added
 
+    #commit hash (also known as commit ID)
 
 > git commit (Commit also known as Snapshot)
 Commit changes to Index. (Commit from Staging area to local repository)
 
     > git commit -m 'Commit Message' - Easiest way to commit
+
+
+> git checkout <prev-commit-id> 
+Move to previous commit
 
 
 ######### Git branches #########
@@ -78,7 +83,10 @@ To merge branch to master, when you are in <master> branch
 Specifies intentionally untracked files to ignore.
 
 > touch .gitignore - create a file '.gitignore'
+> then add files to .gitignore
 
+    To ignore a already Staged file,
+    > First, remove the file from Staging Area (git rm --cached <file>), then add the file in .gitignore
 
 ######### Following cmd's are related to Remote Repo. #########
 
@@ -130,4 +138,15 @@ To upload local repository content to a remote repository
 
  > git restore --staged <file>  // Index (Staging Area)
 
-> git restore . // Restore all in working tree
+> git restore . // Restore all files in working tree
+
+
+
+
+########## HEAD vs master  ##########
+#HEAD is a pointer/label to the most recent commit of the branch you are currently on. 
+ HEAD points out the latest commit in the currently checkedout branch.
+
+#master is the default branch created when you initialized a git repository (e.g. > git init).
+
+You can delete the master branch (e.g. git branch -D master). But You cannot delete the HEAD pointer.

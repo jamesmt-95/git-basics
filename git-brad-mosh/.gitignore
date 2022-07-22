@@ -2,6 +2,7 @@
 
 #Add-a-file
 log.txt
+#index.html
 #Add-a-folder
 /resources
 # '*.txt' - to ignore all .txt files
