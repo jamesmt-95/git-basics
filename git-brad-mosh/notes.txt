@@ -128,8 +128,11 @@ To upload local repository content to a remote repository
 
  ########## Viewing the commit history ##########
 
-  #To see all the history of commit
- > git log
+    #To see all the history of commit
+    > git log
+
+    #Logs including all the commits done on all branches
+    > git log --all ()
 
 
  ########## Restore specified paths in the working tree / Index (Staging Area) ##########
