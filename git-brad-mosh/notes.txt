@@ -59,11 +59,17 @@ Move to previous commit
 
 ######### Git branches #########
 
+Note:
+When creating a new branch, all the files in the currently checkedout branch will be copied to new branch.
+
 > git branch <branch-name>
 To create a branch
 
 > git branch
 To list all branches
+
+> git ls-files
+To list all the files in the currently checkedout branch
 
 
 > git checkout <branch-name>
