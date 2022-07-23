@@ -1,5 +1,6 @@
 Working Directory > Staging Area > Local Repository > Remote Repository
 
+
 ######### Configuring Git #########
 
 > git config --global user.name "Your Name"
@@ -14,6 +15,7 @@ Working Directory > Staging Area > Local Repository > Remote Repository
 
     #To check/update global configuration setting
     > git config --global -e //this will open .gitconfig file
+
 
 
 ######### Basic Git Commands #########
@@ -57,6 +59,7 @@ Commit changes to Index. (Commit from Staging area to local repository)
 Move to previous commit
 
 
+
 ######### Git branches #########
 
 Note:
@@ -97,10 +100,28 @@ Specifies intentionally untracked files to ignore.
     To ignore a already Staged file,
     > First, remove the file from Staging Area (git rm --cached <file>), then add the file in .gitignore
 
+
+
 ######### Following cmd's are related to Remote Repo. #########
+
+> git remote add origin https://github.com/jamesmt-95/mern-stack.git
+To verify that the remote repository was added to your configuration
+
+> git remote
+To list all remotes
+
+> git remote -v
+To check remote link
 
 > git push
 Push from local repository to Remote repository.
+
+    > git push -u origin master     (origin - remote name (instead of link) || master - branch name)
+    To upload local repository content to a remote repository
+        Note: 
+        1. We can create multiple remote 
+            e.g. one remote in github and another in gitlab || different remote repository || different users
+        2. We can also push other branches as well.
 
 
 > git pull
@@ -113,16 +134,11 @@ Clone repository into a new directory.
     > git clone https://github.com/jamesmt-95/mern-stack.git
 
 
-> git remote add origin https://github.com/jamesmt-95/mern-stack.git
-To verify that the remote repository was added to your configuration
-
-
-> git push -u origin master
-To upload local repository content to a remote repository
 
 
 ########## README.md file describes the project ##########
 https://levelup.gitconnected.com/github-readme-cheatsheet-617dff61fa23
+
 
 
 
@@ -136,6 +152,7 @@ https://levelup.gitconnected.com/github-readme-cheatsheet-617dff61fa23
 
 #To compare two branches
 > git diff <branch-1> <branch-2>
+
 
 
 ########## Viewing the commit history ##########
@@ -155,7 +172,7 @@ https://levelup.gitconnected.com/github-readme-cheatsheet-617dff61fa23
 
 > git restore --staged <file>  // Index (Staging Area)
 
-> git stash  // stash reverts to a previous save point.
+> git stash  // stash reverts to a previous save point. (To discard all local changes)
 
 
 ########## HEAD vs master  ##########
