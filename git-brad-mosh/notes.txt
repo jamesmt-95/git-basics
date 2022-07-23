@@ -126,6 +126,8 @@ Push from local repository to Remote repository.
 
 > git pull
 Pull latest changes from remote repository.
+    > git pull
+        Remote changes will be pulled to local repo
 
 
 > git clone
