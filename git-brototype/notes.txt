@@ -1,0 +1,15 @@
+#Steps to Follow when you are updating an existing remote repo project OR Contributing to project
+    
+#Make sure your master branch is up to date. 
+    #Pull latest changes from remote master (> git pull)
+#Then Create a branch in Local Working directory 
+    Note: New branch will be an exact copy of master branch.
+#Checkout to new branch (git checkout <branch>)
+#Update and review the changes
+#Add the changes(file) to Staging Area
+#Commit the changes
+#Push the latest commit to origin (remote)
+    # git push -u origin <new-branch-name>
+
+#checkout to master and merge with newly created branch
+    # git merge <new-branch-name>
