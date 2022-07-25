@@ -1,15 +1,42 @@
-#Steps to Follow when you are updating an existing remote repo project OR Contributing to project
+###### Steps to Follow when you are updating an existing remote repo project ######
     
-#Make sure your master branch is up to date. 
-    #Pull latest changes from remote master (> git pull)
-#Then Create a branch in Local Working directory 
-    Note: New branch will be an exact copy of master branch.
-#Checkout to new branch (git checkout <branch>)
-#Update and review the changes
-#Add the changes(file) to Staging Area
-#Commit the changes
-#Push the latest commit to origin (remote)
-    # git push -u origin <new-branch-name>
+1. Make sure your master branch is up to date. 
+    Note:
+        Pull latest changes from remote master (> git pull)
+2. Then Create a branch in Local Working directory 
+    Note:
+        New branch will be an exact copy of master branch.
+3. Checkout to new branch (git checkout <branch>)
+4. Update and review the changes
+5. Add the changes(file) to Staging Area
+6. Commit the changes
+7. Push the latest commit to origin (remote)
+    > git push -u origin <new-branch-name>
 
-#checkout to master and merge with newly created branch
-    # git merge <new-branch-name>
+8. checkout to master and merge with newly created branch
+    > git merge <new-branch-name>
+
+
+
+###### How to contribute to Open source projects ######
+
+1. Find an open source project.
+2. Optional Steps:
+    2.1 - Star the project.
+    2.2 - Watch the Project for any future updates. 
+3. Fork the project.
+    Note:
+        1 - Fork is a copy of project.
+        2 - When you fork a proj, It will create a copy of repository in your github account.
+4. Check repository for forked project
+5. Clone the Project
+6. Check the status and make sure master branch is up to date with remote
+7. Create a new branch
+8. Update and review the changes
+9. Add the changes(file) to Staging Area
+10. Commit the changes with proper msg.
+11. Push the latest commit to origin (remote)
+    > git push -u origin <new-branch-name>
+12. Go to github repository, and click on 'compare and create pull request'.
+13. Submit the pull request with proper message.
+
