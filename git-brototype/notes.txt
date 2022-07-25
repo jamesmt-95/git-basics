@@ -40,3 +40,30 @@
 12. Go to github repository, and click on 'compare and create pull request'.
 13. Submit the pull request with proper message.
 
+
+###### Gist ######  (similar to Google Keep)
+
+Gists let you share code snippets, entire files, or even applications.
+You can also use gists to save and share console output when running, debugging, or testing your code.
+Each gist is a repository that can be cloned or forked by other people.
+
+To create a gist
+    1. Go to github account.
+    2. click on (+) dropdown, and select New gist (new subdomain will open > https://gist.github.com/ )
+    3. Add description, filename with extension (if you want to create file e.g. code.html)
+    4. create the gist as private or public
+    5. To view All public gist from github, click on 'All gists'.
+    6. To view My gists, Click on profile, then select 'your gists'
+
+
+
+###### Actions ######
+GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline.
+You can create workflows that build and test every pull request to your repository, or deploy merged pull requests to production.
+
+
+###### Projects ######
+Projects are a customizable, flexible tool for planning and tracking work on GitHub.
+Project boards on GitHub help you organize and prioritize your work.
+You can create project boards for specific feature work, comprehensive roadmaps, or even release checklists. 
+With project boards, you have the flexibility to create customized workflows that suit your needs.
