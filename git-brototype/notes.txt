@@ -27,7 +27,7 @@
 3. Fork the project.
     Note:
         1 - Fork is a copy of project.
-        2 - When you fork a proj, It will create a copy of repository in your github account.
+        2 - When you fork a project, It will create a copy of that forked repository in your github account.
 4. Check repository for forked project
 5. Clone the Project
 6. Check the status and make sure master branch is up to date with remote
